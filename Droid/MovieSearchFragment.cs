@@ -21,7 +21,6 @@ namespace MovieSearch.Droid
 		private List<Movie> _movies;
 		private ProgressBar _progressBar;
 
-
 		public MovieSearchFragment(MovieHelper movieHelper, IApiMovieRequest movieApi)
 		{
 			this._movieHelper = movieHelper;
