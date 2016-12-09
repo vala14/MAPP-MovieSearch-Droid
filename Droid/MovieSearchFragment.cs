@@ -38,6 +38,7 @@ namespace MovieSearch.Droid
 		{
 			base.OnPause();
 			_progressBar.Visibility = Android.Views.ViewStates.Gone;
+			Activity.Window.ClearFlags(WindowManagerFlags.NotTouchable);
 		}
 
 		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
@@ -54,6 +55,7 @@ namespace MovieSearch.Droid
 				{
 					// Start progressbar
 					_progressBar.Visibility = Android.Views.ViewStates.Visible;
+					Activity.Window.AddFlags(WindowManagerFlags.NotTouchable);
 					// Disable button
 					getMovieButton.Enabled = false;
 					// Hide keyboard

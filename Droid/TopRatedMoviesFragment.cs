@@ -80,6 +80,7 @@ namespace MovieSearch.Droid
 		public async Task GetMovies()
 		{
 			this._progressBar.Visibility = Android.Views.ViewStates.Visible;
+			Activity.Window.AddFlags(WindowManagerFlags.NotTouchable);
 
 			ApiSearchResponse<MovieInfo> responseMovieInfos = await this._movieApi.GetTopRatedAsync();
 
@@ -95,6 +96,7 @@ namespace MovieSearch.Droid
 			adapter = new MovieListAdapter(this.Activity, this._movies);
 			this._listView.Adapter = adapter;
 			adapter.NotifyDataSetChanged();
+			Activity.Window.ClearFlags(WindowManagerFlags.NotTouchable);
 			this._progressBar.Visibility = Android.Views.ViewStates.Gone;
 		}
 	}
