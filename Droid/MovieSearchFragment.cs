@@ -1,22 +1,12 @@
 ﻿
-using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Views.InputMethods;
 using Android.Widget;
-using DM.MovieApi;
 using DM.MovieApi.ApiResponse;
 using DM.MovieApi.MovieDb.Movies;
-using MovieDownload;
 using Newtonsoft.Json;
 
 using Fragment = Android.Support.V4.App.Fragment;
@@ -62,15 +52,20 @@ namespace MovieSearch.Droid
 			var getMovieButton = rootView.FindViewById<Button>(Resource.Id.getMovieButton);
 			getMovieButton.Click += async (sender, args) =>
 				{
+					// Start progressbar
 					_progressBar.Visibility = Android.Views.ViewStates.Visible;
+					// Disable button
 					getMovieButton.Enabled = false;
+					// Hide keyboard
 					var manager = (InputMethodManager)this.Context.GetSystemService(Context.InputMethodService);
 					manager.HideSoftInputFromWindow(movieEditText.WindowToken, 0);
 
+					// Load movies
 					ApiSearchResponse<MovieInfo> responseMovieInfos = await _movieApi.SearchByTitleAsync(movieEditText.Text == null ? "" : movieEditText.Text);
 					await _movieHelper.GetMovies(responseMovieInfos);
 					_movies = _movieHelper.MoviesList;
 
+					// Send movielist to MovieListActivity and start that activity
 					var intent = new Intent(this.Context, typeof(MovieListActivity));
 					intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movies));
 					this.StartActivity(intent);

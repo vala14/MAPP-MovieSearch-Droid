@@ -11,8 +11,6 @@ namespace MovieSearch.Droid
 	[Activity(Theme = "@style/MyTheme", Label = "Movie info")]
 	public class MovieInfoActivity : Activity
 	{
-		private Movie _movie = new Movie();
-
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -20,18 +18,13 @@ namespace MovieSearch.Droid
 			// Set our view from the "main" layout resource
 			this.SetContentView(Resource.Layout.MovieInfo);
 
-			_movie.Name = this.Intent.GetStringExtra("Name");
-			_movie.Genres = this.Intent.GetStringExtra("Genres");
-			_movie.YearReleased = this.Intent.GetStringExtra("YearReleased");
-			var runningtime = this.Intent.GetStringExtra("RunningTime");
-			_movie.Overview = this.Intent.GetStringExtra("Overview");
-			_movie.ImagePath = this.Intent.GetStringExtra("ImagePath");
+			Movie _movie = getMovie();
 
 			this.FindViewById<TextView>(Resource.Id.Name).Text = _movie.Name + " (" + _movie.YearReleased + ")";
 			this.FindViewById<TextView>(Resource.Id.Genres).Text = _movie.Genres;
-			this.FindViewById<TextView>(Resource.Id.Runntime).Text = runningtime + " min  |";
+			this.FindViewById<TextView>(Resource.Id.Runntime).Text = this.Intent.GetStringExtra("RunningTime") + " min  |";
 			this.FindViewById<TextView>(Resource.Id.Overview).Text = _movie.Overview;
-
+			// Add scroll to Overview TextView
 			this.FindViewById<TextView>(Resource.Id.Overview).MovementMethod = new ScrollingMovementMethod();
 
 			var imageView = this.FindViewById<ImageView>(Resource.Id.Image);
@@ -41,10 +34,26 @@ namespace MovieSearch.Droid
 				Picasso.With(this).Load("http://image.tmdb.org/t/p/w92" + _movie.ImagePath).Into(imageView);
 			}
 
+			setToolbar();
+		}
+
+		private void setToolbar()
+		{
 			var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
 			this.SetActionBar(toolbar);
 			this.ActionBar.Title = this.ActionBar.Title = this.GetString(Resource.String.ToolbarTitleInfo);
 		}
 
+		private Movie getMovie()
+		{
+			Movie movie = new Movie();
+			movie.Name = this.Intent.GetStringExtra("Name");
+			movie.Genres = this.Intent.GetStringExtra("Genres");
+			movie.YearReleased = this.Intent.GetStringExtra("YearReleased");
+			movie.Overview = this.Intent.GetStringExtra("Overview");
+			movie.ImagePath = this.Intent.GetStringExtra("ImagePath");
+
+			return movie;
+		}
 	}
 }

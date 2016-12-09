@@ -1,22 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
-using Android.Views.InputMethods;
-using DM.MovieApi;
-using DM.MovieApi.MovieDb.Movies;
-using DM.MovieApi.ApiResponse;
-using System.Collections.Generic;
-using Android.Content;
-using Newtonsoft.Json;
-using MovieDownload;
-using System.Threading;
-using System.IO;
 using Android.Support.V4.App;
-using Android.Runtime;
-using Android.Support.V4.View;
-
-using Fragment = Android.Support.V4.App.Fragment;
-using Android.Support.Design.Widget;
 
 namespace MovieSearch.Droid
 {

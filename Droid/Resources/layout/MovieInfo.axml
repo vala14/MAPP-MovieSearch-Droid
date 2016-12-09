@@ -21,7 +21,7 @@
             android:autoText="true"
             android:textSize="22dp" />
         <TextView
-            android:text="120 min"
+            android:text="0 min  |"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Runntime"

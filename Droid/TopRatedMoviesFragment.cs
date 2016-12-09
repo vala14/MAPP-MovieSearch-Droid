@@ -1,22 +1,15 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
+
 using Android.Views;
-using Android.Views.InputMethods;
 using Android.Widget;
 using DM.MovieApi;
 using DM.MovieApi.ApiResponse;
 using DM.MovieApi.MovieDb.Movies;
-using MovieDownload;
-using Newtonsoft.Json;
 using Fragment = Android.Support.V4.App.Fragment;
 
 namespace MovieSearch.Droid
@@ -57,10 +50,10 @@ namespace MovieSearch.Droid
 			this._listView = _rootView.FindViewById<ListView>(Resource.Id.listview);
 			this._progressBar = _rootView.FindViewById<ProgressBar>(Resource.Id.progressBar);
 
-			this._movies = new List<Movie>();
-			MovieListAdapter adapter = new MovieListAdapter(this.Activity, this._movies);
-			this._listView.Adapter = adapter;
-			adapter.NotifyDataSetChanged();
+			//this._movies = new List<Movie>();
+			//MovieListAdapter adapter = new MovieListAdapter(this.Activity, this._movies);
+			//this._listView.Adapter = adapter;
+			//adapter.NotifyDataSetChanged();
 
 			_listView.ItemClick += listItemClick;
 

@@ -22,6 +22,7 @@
         android:layout_below="@id/movieTitle"
         android:layout_marginTop="4dp" />
     <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="80px"
         android:layout_height="110px"
         android:layout_alignParentRight="true"

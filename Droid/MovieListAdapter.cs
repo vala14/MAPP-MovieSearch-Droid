@@ -49,9 +49,6 @@ namespace MovieSearch.Droid
 				Picasso.With((Context)this._context).Load("http://image.tmdb.org/t/p/w92" + movie.ImagePath).Into(imageView);
 			}
 
-			//var myBitmap = BitmapFactory.DecodeFile(imgFile.AbsolutePath);
-			//view.FindViewById<ImageView>(Resource.Id.image).SetImageBitmap(myBitmap);
-
 			return view;
 		}
 

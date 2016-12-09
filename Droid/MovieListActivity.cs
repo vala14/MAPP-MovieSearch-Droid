@@ -23,8 +23,14 @@ namespace MovieSearch.Droid
 			this._listView = this.FindViewById<ListView>(Resource.Id.listview);
 			_listView.Adapter = new MovieListAdapter(this, movieList);
 
+			// Override onclick on list item
 			_listView.ItemClick += listItemClick;
 
+			setToolbar();
+		}
+
+		private void setToolbar()
+		{
 			var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
 			this.SetActionBar(toolbar);
 			this.ActionBar.Title = this.GetString(Resource.String.ToolbarTitleList);

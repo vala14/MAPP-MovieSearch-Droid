@@ -148,6 +148,5 @@
     <BundleResource Include="Resources\SplashLogo.png" />
     <BundleResource Include="Resources\SplashColour.png" />
   </ItemGroup>
-  <Import Project="..\MovieDownload\MovieDownload.projitems" Label="Shared" Condition="Exists('..\MovieDownload\MovieDownload.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

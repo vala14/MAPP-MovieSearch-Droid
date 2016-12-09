@@ -48,7 +48,6 @@ namespace MovieSearch.Droid
 
 			var viewPager = activity.FindViewById<ViewPager>(Resource.Id.viewpager);
 			viewPager.Adapter = new TabsFragmentPagerAdapter(activity.SupportFragmentManager, fragments, titles);
-			viewPager.OffscreenPageLimit = 0;
 
 			// Give the TabLayout the ViewPager
 			var tabLayout = activity.FindViewById<TabLayout>(Resource.Id.sliding_tabs);
