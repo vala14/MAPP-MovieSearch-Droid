@@ -81,3 +81,44 @@
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/Droid/bin/Debug/Square.Picasso.dll
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.dll
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.dll.mdb
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/MovieSearch.Droid.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/MovieSearch.Droid.dll.mdb
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.Droid.dll.mdb
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.Droid.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/com.ru.moviesearch.apk
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/android/bin/com.ru.moviesearch.apk
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/main.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/values/strings.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/values/styles.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/drawable-hdpi/splash.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/drawable-hdpi/icon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/movielistitem.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/drawable-hdpi/noicon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/moviesearch.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/toolbar.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/topratedmovies.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/movieinfo.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/layout/movielist.xml
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/res/drawable-hdpi/roundicon.png
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/R.cs.flag
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/com.ru.moviesearch-Signed.apk
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/obj/Debug/uploadflags.txt
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/DM.MovieApi.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Xamarin.Android.Support.Design.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Square.OkIO.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Square.OkHttp.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/Square.Picasso.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.dll
+/Users/laufeyrut/Desktop/MAPP/MAPP-MovieSearch-Droid/Droid/bin/Debug/MovieSearch.dll.mdb
