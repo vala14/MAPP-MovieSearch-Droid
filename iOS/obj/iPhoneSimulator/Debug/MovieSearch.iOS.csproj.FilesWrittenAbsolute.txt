@@ -1,0 +1,15 @@
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/optimized/SplashLogo.png
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/optimized/SplashColour.png
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/MovieSearch.iOS.exe.mdb
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/MovieSearch.iOS.exe
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/MovieSearch.iOS.exe
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/obj/iPhoneSimulator/Debug/MovieSearch.iOS.exe.mdb
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/DM.MovieApi.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/MovieSearch.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/iOS/bin/iPhoneSimulator/Debug/MovieSearch.dll.mdb

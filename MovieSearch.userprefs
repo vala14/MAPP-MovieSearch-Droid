@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{982DF18F-F9D8-42F0-8610-BB33662B8A85}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/Strings.xml">
+    <Files>
+      <File FileName="Droid/MovieListAdapter.cs" Line="49" Column="62" />
+      <File FileName="Droid/MovieListActivity.cs" Line="29" Column="31" />
+      <File FileName="Droid/TopRatedMoviesFragment.cs" Line="70" Column="1" />
+      <File FileName="Droid/MovieInfoActivity.cs" Line="43" Column="4" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="3" />
+      <File FileName="Droid/SplashActivity.cs" Line="39" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="12" Column="11" />
+      <File FileName="Droid/ToolbarTabs.cs" Line="62" Column="7" />
+      <File FileName="MovieSearch/Model/MovieHelper.cs" Line="58" Column="1" />
+      <File FileName="Droid/TabsFragmentPagerAdapter.cs" Line="27" Column="4" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Droid/MovieSearchFragment.cs" Line="68" Column="68" />
+      <File FileName="Droid/Resources/values/Strings.xml" Line="4" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>

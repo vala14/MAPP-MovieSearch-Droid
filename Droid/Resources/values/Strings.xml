@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MovieSearch</string>
+	<string name="ToolbarTitle">MovieSearch</string>
+	<string name="ToolbarTitleInfo">Movie Info</string>
+	<string name="ToolbarTitleList">Movie List</string>
+	<string name="SearchTab">Search</string>
+	<string name="TopRatedTab">Top Rated</string>
+	<string name="SearchTitle">Enter words in movie title:</string>
+	<string name="SearchPlaceholder">Movie title</string>
+	<string name="SearchButton">Get movies</string>
+	<color name="lightblue">#6699ff</color>
+</resources>
