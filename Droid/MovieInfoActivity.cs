@@ -41,7 +41,7 @@ namespace MovieSearch.Droid
 		{
 			var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
 			this.SetActionBar(toolbar);
-			this.ActionBar.Title = this.ActionBar.Title = this.GetString(Resource.String.ToolbarTitleInfo);
+			this.ActionBar.Title = this.GetString(Resource.String.ToolbarTitleInfo);
 		}
 
 		private Movie getMovie()
