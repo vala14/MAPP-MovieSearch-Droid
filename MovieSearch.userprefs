@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{982DF18F-F9D8-42F0-8610-BB33662B8A85}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{34A82013-BF26-4F76-9A2F-68AE6003084F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Views/CustomCell.cs">
     <Files>
       <File FileName="Droid/MovieListAdapter.cs" Line="43" Column="4" />
       <File FileName="Droid/MovieListActivity.cs" Line="29" Column="17" />
       <File FileName="Droid/TopRatedMoviesFragment.cs" Line="99" Column="4" />
-      <File FileName="Droid/MovieInfoActivity.cs" Line="35" Column="5" />
+      <File FileName="Droid/MovieInfoActivity.cs" Line="43" Column="31" />
       <File FileName="Droid/MainActivity.cs" Line="24" Column="1" />
       <File FileName="Droid/SplashActivity.cs" Line="29" Column="1" />
       <File FileName="Droid/Resources/values/styles.xml" Line="12" Column="11" />
@@ -14,6 +14,7 @@
       <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
       <File FileName="Droid/MovieSearchFragment.cs" Line="74" Column="36" />
       <File FileName="Droid/Resources/values/Strings.xml" Line="4" Column="26" />
+      <File FileName="iOS/Views/CustomCell.cs" Line="8" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -23,4 +24,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MovieSearch.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9FD4DFC1-A663-4699-A26E-692307D99C71" />
 </Properties>
