@@ -35,7 +35,6 @@ namespace MovieSearch.Droid
 		{
 			base.OnCreate(savedInstanceState);
 			_movies = new List<Movie>();
-			MovieDbFactory.RegisterSettings(new MovieDbSettings());
 		}
 
 		public override void OnPause()
@@ -50,10 +49,10 @@ namespace MovieSearch.Droid
 			this._listView = _rootView.FindViewById<ListView>(Resource.Id.listview);
 			this._progressBar = _rootView.FindViewById<ProgressBar>(Resource.Id.progressBar);
 
-			//this._movies = new List<Movie>();
-			//MovieListAdapter adapter = new MovieListAdapter(this.Activity, this._movies);
-			//this._listView.Adapter = adapter;
-			//adapter.NotifyDataSetChanged();
+			this._movies = new List<Movie>();
+			MovieListAdapter adapter = new MovieListAdapter(this.Activity, this._movies);
+			this._listView.Adapter = adapter;
+			adapter.NotifyDataSetChanged();
 
 			_listView.ItemClick += listItemClick;
 

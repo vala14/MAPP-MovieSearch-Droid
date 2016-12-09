@@ -5,3 +5,10 @@
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/MovieSearch/obj/Debug/MovieSearch.dll.mdb
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/Newtonsoft.Json.dll
 /Users/valarun/Documents/HR/Haust 2016/APP/Week2/Day2/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/DM.MovieApi.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile7.AssemblyAttribute.cs
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/MovieSearch.dll.mdb
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/MovieSearch.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/obj/Debug/MovieSearch.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/obj/Debug/MovieSearch.dll.mdb
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/Newtonsoft.Json.dll
+/Users/valarun/Documents/HR/Haust 2016/APP/Week2-Final/MAPP-MovieSearch-Droid/MovieSearch/bin/Debug/DM.MovieApi.dll

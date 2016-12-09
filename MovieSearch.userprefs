@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid/Resources/values/Strings.xml">
     <Files>
       <File FileName="Droid/MovieListAdapter.cs" Line="49" Column="62" />
-      <File FileName="Droid/MovieListActivity.cs" Line="29" Column="31" />
+      <File FileName="Droid/MovieListActivity.cs" Line="29" Column="17" />
       <File FileName="Droid/TopRatedMoviesFragment.cs" Line="70" Column="1" />
       <File FileName="Droid/MovieInfoActivity.cs" Line="43" Column="4" />
-      <File FileName="Droid/MainActivity.cs" Line="25" Column="3" />
-      <File FileName="Droid/SplashActivity.cs" Line="39" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="24" Column="1" />
+      <File FileName="Droid/SplashActivity.cs" Line="29" Column="1" />
       <File FileName="Droid/Resources/values/styles.xml" Line="12" Column="11" />
       <File FileName="Droid/ToolbarTabs.cs" Line="62" Column="7" />
       <File FileName="MovieSearch/Model/MovieHelper.cs" Line="58" Column="1" />
